@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe card page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Delicious Vegetarian Delights</h1>
+        <p>Explore a variety of authentic and flavorful Indian vegetarian recipes.</p>
+    </header>
+
+    <main class="recipe-grid">
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image1.jpeg" alt="Paneer Butter Masala">
+            <div class="card-content">
+                <h2 class="recipe-title">Paneer Butter Masala</h2>
+                <p class="recipe-description">A rich and creamy North Indian curry with paneer (Indian cottage cheese) cooked in a tomato, butter, and cashew-based gravy.</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>200g Paneer, cubed</li>
+                            <li>2 large Onions, finely chopped</li>
+                            <li>3 Tomatoes, puréed</li>
+                            <li>1/2 cup Cashews, soaked</li>
+                            <li>2 tbsp Butter</li>
+                            <li>1 tbsp Ginger-Garlic paste</li>
+                            <li>Spices: Turmeric, Red Chili powder, Garam Masala</li>
+                            <li>Fresh Cream for garnish</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>Heat butter in a pan, sauté onions until golden brown.</li>
+                            <li>Add ginger-garlic paste and sauté for a minute.</li>
+                            <li>Add tomato purée and cook until the oil separates.</li>
+                            <li>Grind soaked cashews into a smooth paste and add to the gravy.</li>
+                            <li>Add spices, cook for a few minutes.</li>
+                            <li>Add paneer cubes and a little water. Simmer until gravy thickens.</li>
+                            <li>Garnish with fresh cream and serve hot with naan or rice.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="4">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9734;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image2.webp" alt="Dal Makhani">
+            <div class="card-content">
+                <h2 class="recipe-title">Dal Makhani</h2>
+                <p class="recipe-description">A classic Punjabi dish made with whole black lentils (urad dal) and kidney beans (rajma) slow-cooked with butter and cream.</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>1 cup Whole Urad Dal</li>
+                            <li>1/4 cup Rajma (Kidney Beans)</li>
+                            <li>1/2 cup Tomato Purée</li>
+                            <li>2 tbsp Butter/Ghee</li>
+                            <li>1 tbsp Ginger-Garlic paste</li>
+                            <li>1/2 cup Fresh Cream</li>
+                            <li>Spices: Cumin, Red Chili powder, Garam Masala</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>Soak dal and rajma overnight. Pressure cook until tender.</li>
+                            <li>In a separate pan, heat butter/ghee, add cumin.</li>
+                            <li>Add ginger-garlic paste, then tomato purée. Cook until oil separates.</li>
+                            <li>Add cooked dal and rajma, mix well.</li>
+                            <li>Add spices, simmer on low heat for 20-30 minutes, stirring occasionally.</li>
+                            <li>Stir in fresh cream just before serving.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="5">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image3.webp" alt="Masoor Dal Tadka">
+            <div class="card-content">
+                <h2 class="recipe-title">Masoor Dal Tadka</h2>
+                <p class="recipe-description">A simple yet flavorful lentil curry made from red lentils, tempered with aromatic spices.</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>1 cup Masoor Dal (Red Lentils)</li>
+                            <li>1 Onion, chopped</li>
+                            <li>2 Tomatoes, chopped</li>
+                            <li>2-3 Garlic cloves, minced</li>
+                            <li>1 Green Chili, slit</li>
+                            <li>1 tsp Cumin Seeds</li>
+                            <li>1/2 tsp Turmeric Powder</li>
+                            <li>Salt to taste</li>
+                            <li>Coriander leaves for garnish</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>Wash and pressure cook masoor dal with turmeric and salt until tender.</li>
+                            <li>In a separate pan, heat oil, add cumin seeds.</li>
+                            <li>Add chopped onion and sauté until translucent.</li>
+                            <li>Add minced garlic and green chili, sauté for a minute.</li>
+                            <li>Add chopped tomatoes and cook until soft.</li>
+                            <li>Pour the cooked dal into the tempering mixture, mix well.</li>
+                            <li>Simmer for 5-7 minutes. Garnish with fresh coriander.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="4">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9734;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image4.jpg" alt="Aloo Gobi">
+            <div class="card-content">
+                <h2 class="recipe-title">Aloo Gobi</h2>
+                <p class="recipe-description">A popular dry Indian dish made with potatoes (aloo) and cauliflower (gobi) cooked with a blend of spices.</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>2 Potatoes, diced</li>
+                            <li>1 small Cauliflower, florets</li>
+                            <li>1 Onion, chopped</li>
+                            <li>1 Tomato, chopped</li>
+                            <li>1 tsp Ginger-Garlic paste</li>
+                            <li>Spices: Cumin seeds, Turmeric, Red Chili powder, Coriander powder, Garam Masala</li>
+                            <li>Oil for cooking</li>
+                            <li>Fresh coriander for garnish</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>Blanch cauliflower florets for 5 minutes and drain.</li>
+                            <li>Heat oil in a pan, add cumin seeds.</li>
+                            <li>Add chopped onion and sauté until golden.</li>
+                            <li>Add ginger-garlic paste, then chopped tomato. Cook until soft.</li>
+                            <li>Add diced potatoes and cauliflower florets.</li>
+                            <li>Add all the dry spices, mix well.</li>
+                            <li>Cover and cook on low heat until potatoes and cauliflower are tender, stirring occasionally.</li>
+                            <li>Garnish with fresh coriander before serving.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="4">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9734;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image5.jpg" alt="Chole Bhature">
+            <div class="card-content">
+                <h2 class="recipe-title">Chole Bhature</h2>
+                <p class="recipe-description">A popular North Indian dish consisting of spicy chickpea curry (chole) and fried leavened bread (bhature).</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>For Chole: 1 cup Chickpeas (Chana), soaked overnight</li>
+                            <li>2 Onions, chopped</li>
+                            <li>3 Tomatoes, puréed</li>
+                            <li>Ginger-Garlic paste</li>
+                            <li>Chole Masala, Turmeric, Red Chili powder</li>
+                            <li>For Bhature: All-purpose flour, Yogurt, Yeast, Sugar, Salt, Oil for frying</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>For Chole: Pressure cook soaked chickpeas. Sauté onions, ginger-garlic, and tomatoes. Add spices and cooked chickpeas, simmer.</li>
+                            <li>For Bhature: Knead a soft dough with flour, yogurt, yeast, sugar, salt, and water. Let it rise.</li>
+                            <li>Roll out small portions of dough into oval shapes.</li>
+                            <li>Deep fry bhature until puffed and golden brown.</li>
+                            <li>Serve hot chole with bhature, pickles, and sliced onions.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="5">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="recipe-card" data-cuisine="North Indian">
+            <img src="image6.jpeg" alt="Vegetable Biryani">
+            <div class="card-content">
+                <h2 class="recipe-title">Vegetable Biryani</h2>
+                <p class="recipe-description">A fragrant and flavorful rice dish made with basmati rice, mixed vegetables, and aromatic spices, cooked in layers.</p>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3 class="section-title">Ingredients</h3>
+                        <ul class="ingredients-list">
+                            <li>1 cup Basmati Rice</li>
+                            <li>Mixed vegetables (carrots, beans, peas, potatoes)</li>
+                            <li>1 Onion, thinly sliced</li>
+                            <li>1 Tomato, chopped</li>
+                            <li>Ginger-Garlic paste</li>
+                            <li>Biryani Masala, Turmeric, Red Chili powder</li>
+                            <li>Yogurt, Mint leaves, Coriander leaves</li>
+                            <li>Ghee/Oil</li>
+                        </ul>
+                        <button class="toggle-ingredients">Show Preparation</button>
+                    </div>
+                    <div class="preparation-section hidden">
+                        <h3 class="section-title">Preparation Method</h3>
+                        <ol class="preparation-steps">
+                            <li>Soak basmati rice for 30 minutes, then cook 70% in salted water.</li>
+                            <li>Sauté sliced onions until golden. Add ginger-garlic paste, then chopped tomatoes.</li>
+                            <li>Add mixed vegetables and spices, cook for a few minutes.</li>
+                            <li>Add yogurt, mint, and coriander leaves.</li>
+                            <li>Layer the cooked vegetables and partially cooked rice in a heavy-bottomed pot.</li>
+                            <li>Drizzle with ghee, cover, and cook on low heat (dum method) for 15-20 minutes.</li>
+                            <li>Serve hot with raita.</li>
+                        </ol>
+                        <button class="toggle-ingredients">Show Ingredients</button>
+                    </div>
+                </div>
+                <div class="recipe-rating" data-rating="4">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9734;</span>
+                </div>
+            </div>
+        </div>
+        <div class="filter-controls">
+    <button data-filter="all" class="active">All Cuisines</button>
+    <button data-filter="North Indian">North Indian</button>
+    </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
